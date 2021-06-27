@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, arial;
+    font-size: 16px;
+    background-image: url("istockphoto-1138395421-612x612.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.navigasi{
+    /* Memberi Warna pada Backround */
+    background-color:rgb(1, 36, 54);;
+    /* Mengatur ukuran Kotak tetap */
+    box-sizing: border-box;
+    /* Mengatur posisi backround agar tetap */
+    position: fixed;
+    /* Memberikan Lebar */
+    width: 100%;
+}
+
+.navigasi h1.Judul{
+    /* Memberi Warna Judul pada Header */
+    color: rgb(212, 175, 6);   
+} 
+.navigasi h1.pe{
+    /* Memberi Warnda Judul Pada Header */
+    color: rgb(196, 196, 196);
+}
+.navigasi h1{
+    font-weight: bold;
+    /* Memberi Warna */
+    color: rgb(234, 226, 183);
+    /* Mengatur Posisi Teks */
+    float: left;
+    /* Memberikan Padding pada Teks */
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menunavigasi ul{
+    /* Menonaktifkan list-style */
+    list-style:none;
+    /* Mengatur Posisi Teks */
+    float: right;
+}
+.menunavigasi ul li{
+    /* Mengatur Posisi Teks */
+    float: left;
+}
+.menunavigasi li a{
+    /* Mengatur posisi dan Tampilan */
+    display: block;
+    /* Menonaktifkan text-decoration */
+    text-decoration: none;
+    /* Memberikan Warna */
+    color: rgb(234, 226, 183);
+    padding: 20px;
+}
+.menunavigasi li a:hover{
+    /* Memberikan backround Warna */
+    background-color: rgb(252, 191, 73);
+    /* Memberikan Warna */
+    color: rgb(0, 48, 73);
+}
+.pembungkus{
+    width: 450px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    height:410px;
+    width:480px;
+    background-image: url("DEVNATION\ OFFICIAL.png");
+    background-size: cover;
+}
+.konten{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color:rgb(45, 107, 146);
+    padding: 10px;  
+    color: rgb(185, 196, 201);
+}
+.konten h1.Judulartikel{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: rgb(1, 28, 43);
+}
+.konten p.tanggal{
+    font-size: 15px;
+    color: rgb(251, 255, 0);
+    margin-top: 10px;
+}
+.konten1{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(185, 196, 201);
+    padding:200px;
+}
+.konten2{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(185, 196, 201);
+    padding:200px;
+    padding-top: 10px;
+}
+.konten2 .isi .tombol a{
+    color: rgb(212, 175, 6);   
+}
+.konten1 .isi .tombol a{ 
+    color: rgb(212, 175, 6);   
+}
+.konten .box{
+    width: 100%;
+    display: flex;
+}
+.konten .box .box-latar{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.konten .box .box-news{
+    width: 30%;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 3px;
+    background-color: rgb(25, 151, 151);
+}
+.konten .box .box-news .title{
+    height: 30px;
+    background-color: rgb(1, 85, 110);
+}
+.konten .box .box-news .title h3{
+    text-align:center;
+    color: rgb(179, 252, 8);
+    font-size: 20px;
+}
+.konten .box .box-news h4{
+    text-align: center;
+    padding: 5px 0px;
+    color: rgb(9, 255, 222);
+}
+.konten .box .box-news .isi{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.konten .box .box-news .isi p{
+    text-align: justify;
+    line-height: 17px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.isi{
+    margin-top: 30px;
+}
+.isi p{
+    text-align:justify ;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.isi img.gambar{
+    width: 200px;
+    float:left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.isi img.gambar1{
+    width: 250px;
+    float:inline-start;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.isi img.gambar2{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.isi img.gambar3{
+    width: 300px;
+    float:inline-start;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.footer{
+    padding: 10px;
+    background-color: rgb(38, 70, 83);
+    color: rgb(234, 226, 183);
+    text-align:center;
+}
+.keterangan{
+    padding-left: 25px;
+}
+.keterangan h1:hover{
+    color: rgb(34, 193, 221);
+    font-size: 40px;
+}
+.keterangan h1{
+    margin-top: 50px;
+    margin-bottom:10px;
+    font-size: 0.9cm;
+    text-align:center ;
+    transition: 0.5s;
+}
+.keterangan h1.Welcome{
+    color: rgb(212, 175, 6);
+}
+.keterangan h1.Dev{
+    color: rgb(196, 196, 196);    
+}
